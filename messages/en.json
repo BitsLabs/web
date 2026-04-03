@@ -1,0 +1,72 @@
+{
+  "Header": {
+    "nav": {
+      "about": "About us",
+      "solutions": "Solutions",
+      "contact": "Contact",
+      "insights": "Insights"
+    }
+  },
+  "Home": {
+    "hero": {
+      "title": "Building Software People Love",
+      "subtitle": "Design first, AI native."
+    },
+    "about": {
+      "heading": "About Flits",
+      "description": "At Flits we connect data and design — to create incredible tools. Directly at the intersection of technology and ambition, we build the systems that empower tomorrow."
+    },
+    "stats": {
+      "reach": "Market Reach",
+      "reachValue": "200K+",
+      "uptake": "Consumer Uptake",
+      "uptakeValue": "1K+",
+      "support": "Support",
+      "supportValue": "24/7"
+    },
+    "cta": {
+      "contact": "Contact",
+      "whatWeDo": "What we do"
+    }
+  },
+  "Contact": {
+    "title": "Contact us",
+    "email": "E-Mail",
+    "phone": "Phone"
+  },
+  "Footer": {
+    "pages": "Pages",
+    "home": "Home",
+    "insights": "Insights",
+    "looped": "Looped",
+    "imprint": "Imprint",
+    "privacy": "Privacy"
+  },
+  "Looped": {
+    "category": "Habit Tracker",
+    "title": "Looped",
+    "subtitle": "The best minimalist habit tracker.",
+    "download": "Download",
+    "features": {
+      "heading": "Featured features.",
+      "momentum": {
+        "title": "Build Real Momentum",
+        "description": "Looped helps you stick with your habits day after day, turning small steps into lasting change."
+      },
+      "calm": {
+        "title": "A Calm Space to Grow",
+        "description": "No noisy feeds or gamification. Just a clean, focused environment to stay on track."
+      },
+      "progress": {
+        "title": "Your Progress, at a Glance",
+        "description": "Elegant visuals and simple stats show you exactly how far you've come — and where to go next."
+      },
+      "widgets": "Your habits on your home screen.",
+      "liveActivities": "Time your habits.",
+      "minimalMode": "For the even more minimalist."
+    }
+  },
+  "Common": {
+    "language": "Language"
+  }
+}

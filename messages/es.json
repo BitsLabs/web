@@ -1,0 +1,72 @@
+{
+  "Header": {
+    "nav": {
+      "about": "Sobre nosotros",
+      "solutions": "Soluciones",
+      "contact": "Contacto",
+      "insights": "Insights"
+    }
+  },
+  "Home": {
+    "hero": {
+      "title": "Creando software que la gente ama",
+      "subtitle": "Design first, AI native."
+    },
+    "about": {
+      "heading": "Sobre Flits",
+      "description": "En Flits conectamos datos y diseño — para crear herramientas increíbles. En la intersección de tecnología y ambición, construimos los sistemas que impulsan el mañana."
+    },
+    "stats": {
+      "reach": "Alcance de mercado",
+      "reachValue": "200K+",
+      "uptake": "Adopción",
+      "uptakeValue": "1K+",
+      "support": "Soporte",
+      "supportValue": "24/7"
+    },
+    "cta": {
+      "contact": "Contacto",
+      "whatWeDo": "Lo que hacemos"
+    }
+  },
+  "Contact": {
+    "title": "Contáctanos",
+    "email": "E-Mail",
+    "phone": "Teléfono"
+  },
+  "Footer": {
+    "pages": "Páginas",
+    "home": "Inicio",
+    "insights": "Insights",
+    "looped": "Looped",
+    "imprint": "Aviso legal",
+    "privacy": "Privacidad"
+  },
+  "Looped": {
+    "category": "Rastreador de hábitos",
+    "title": "Looped",
+    "subtitle": "El mejor rastreador de hábitos minimalista.",
+    "download": "Descargar",
+    "features": {
+      "heading": "Funciones destacadas.",
+      "momentum": {
+        "title": "Construye impulso real",
+        "description": "Looped te ayuda a mantener tus hábitos día a día, convirtiendo pequeños pasos en cambios duraderos."
+      },
+      "calm": {
+        "title": "Un espacio tranquilo para crecer",
+        "description": "Sin feeds ruidosos ni gamificación. Solo un entorno limpio y enfocado para mantenerte en el camino."
+      },
+      "progress": {
+        "title": "Tu progreso de un vistazo",
+        "description": "Visualizaciones elegantes y estadísticas simples te muestran exactamente lo lejos que has llegado — y hacia dónde ir."
+      },
+      "widgets": "Tus hábitos en la pantalla de inicio.",
+      "liveActivities": "Cronometra tus hábitos.",
+      "minimalMode": "Para los aún más minimalistas."
+    }
+  },
+  "Common": {
+    "language": "Idioma"
+  }
+}

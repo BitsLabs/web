@@ -1,0 +1,72 @@
+{
+  "Header": {
+    "nav": {
+      "about": "À propos",
+      "solutions": "Solutions",
+      "contact": "Contact",
+      "insights": "Insights"
+    }
+  },
+  "Home": {
+    "hero": {
+      "title": "Créer des logiciels que les gens adorent",
+      "subtitle": "Design first, AI native."
+    },
+    "about": {
+      "heading": "À propos de Flits",
+      "description": "Chez Flits, nous connectons données et design — pour créer des outils incroyables. À l'intersection de la technologie et de l'ambition, nous construisons les systèmes qui propulsent demain."
+    },
+    "stats": {
+      "reach": "Portée du marché",
+      "reachValue": "200K+",
+      "uptake": "Adoption",
+      "uptakeValue": "1K+",
+      "support": "Support",
+      "supportValue": "24/7"
+    },
+    "cta": {
+      "contact": "Contact",
+      "whatWeDo": "Ce que nous faisons"
+    }
+  },
+  "Contact": {
+    "title": "Contactez-nous",
+    "email": "E-Mail",
+    "phone": "Téléphone"
+  },
+  "Footer": {
+    "pages": "Pages",
+    "home": "Accueil",
+    "insights": "Insights",
+    "looped": "Looped",
+    "imprint": "Mentions légales",
+    "privacy": "Confidentialité"
+  },
+  "Looped": {
+    "category": "Suivi d'habitudes",
+    "title": "Looped",
+    "subtitle": "Le meilleur suivi d'habitudes minimaliste.",
+    "download": "Télécharger",
+    "features": {
+      "heading": "Fonctionnalités phares.",
+      "momentum": {
+        "title": "Créez un vrai élan",
+        "description": "Looped vous aide à maintenir vos habitudes jour après jour, transformant de petits pas en changements durables."
+      },
+      "calm": {
+        "title": "Un espace calme pour grandir",
+        "description": "Pas de flux bruyants ni de gamification. Juste un environnement propre et concentré pour rester sur la bonne voie."
+      },
+      "progress": {
+        "title": "Votre progression en un coup d'œil",
+        "description": "Des visuels élégants et des statistiques simples vous montrent exactement le chemin parcouru — et la suite."
+      },
+      "widgets": "Vos habitudes sur l'écran d'accueil.",
+      "liveActivities": "Chronométrez vos habitudes.",
+      "minimalMode": "Pour les encore plus minimalistes."
+    }
+  },
+  "Common": {
+    "language": "Langue"
+  }
+}

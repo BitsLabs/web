@@ -1,0 +1,72 @@
+{
+  "Header": {
+    "nav": {
+      "about": "Über uns",
+      "solutions": "Lösungen",
+      "contact": "Kontakt",
+      "insights": "Insights"
+    }
+  },
+  "Home": {
+    "hero": {
+      "title": "Software, die begeistert",
+      "subtitle": "Design first, AI native."
+    },
+    "about": {
+      "heading": "Über Flits",
+      "description": "Bei Flits verbinden wir Daten und Design — um außergewöhnliche Tools zu schaffen. An der Schnittstelle von Technologie und Ambition bauen wir die Systeme, die morgen antreiben."
+    },
+    "stats": {
+      "reach": "Marktreichweite",
+      "reachValue": "200K+",
+      "uptake": "Nutzerakzeptanz",
+      "uptakeValue": "1K+",
+      "support": "Support",
+      "supportValue": "24/7"
+    },
+    "cta": {
+      "contact": "Kontakt",
+      "whatWeDo": "Was wir machen"
+    }
+  },
+  "Contact": {
+    "title": "Kontaktiere uns",
+    "email": "E-Mail",
+    "phone": "Telefon"
+  },
+  "Footer": {
+    "pages": "Seiten",
+    "home": "Startseite",
+    "insights": "Insights",
+    "looped": "Looped",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz"
+  },
+  "Looped": {
+    "category": "Gewohnheitstracker",
+    "title": "Looped",
+    "subtitle": "Der beste minimalistische Gewohnheitstracker.",
+    "download": "Herunterladen",
+    "features": {
+      "heading": "Ausgewählte Features.",
+      "momentum": {
+        "title": "Echte Dynamik aufbauen",
+        "description": "Looped hilft dir, Tag für Tag an deinen Gewohnheiten dranzubleiben und kleine Schritte in dauerhafte Veränderung zu verwandeln."
+      },
+      "calm": {
+        "title": "Ein ruhiger Raum zum Wachsen",
+        "description": "Keine lauten Feeds oder Gamification. Einfach eine klare, fokussierte Umgebung, um auf Kurs zu bleiben."
+      },
+      "progress": {
+        "title": "Dein Fortschritt auf einen Blick",
+        "description": "Elegante Visualisierungen und einfache Statistiken zeigen dir genau, wie weit du gekommen bist — und wohin es als nächstes geht."
+      },
+      "widgets": "Deine Gewohnheiten auf dem Homescreen.",
+      "liveActivities": "Deine Gewohnheiten timen.",
+      "minimalMode": "Für den noch Minimalistischeren."
+    }
+  },
+  "Common": {
+    "language": "Sprache"
+  }
+}
