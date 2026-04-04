@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { HeroSection } from "@/components/sections/hero-section";
-import { AboutSection } from "@/components/sections/about-section";
 import { StatsSection } from "@/components/sections/stats-section";
+import { ProductsSection } from "@/components/sections/products-section";
+import { AboutSection } from "@/components/sections/about-section";
 import { CtaSection } from "@/components/sections/cta-section";
 
 type Props = {
@@ -15,7 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: t("hero.title"),
-    description: t("hero.subtitle"),
+    description: t("hero.description"),
   };
 }
 
@@ -23,8 +24,9 @@ export default function HomePage() {
   return (
     <>
       <HeroSection />
-      <AboutSection />
       <StatsSection />
+      <ProductsSection />
+      <AboutSection />
       <CtaSection />
     </>
   );

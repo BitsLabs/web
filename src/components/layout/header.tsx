@@ -11,6 +11,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { LanguageSwitcher } from "./language-switcher";
+import { FlitsLogo } from "@/components/shared/flits-logo";
 
 function HamburgerIcon() {
   return (
@@ -48,11 +49,8 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-border/40 bg-background/80 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo */}
-        <Link
-          href="/"
-          className="text-xl font-bold tracking-tight text-foreground"
-        >
-          Flits
+        <Link href="/" aria-label="Flits">
+          <FlitsLogo />
         </Link>
 
         {/* Desktop nav */}
@@ -84,8 +82,8 @@ export function Header() {
             <SheetContent side="right" className="w-72">
               <SheetHeader className="pb-2">
                 <SheetTitle>
-                  <Link href="/" className="text-xl font-bold tracking-tight">
-                    Flits
+                  <Link href="/" aria-label="Flits">
+                    <FlitsLogo />
                   </Link>
                 </SheetTitle>
               </SheetHeader>

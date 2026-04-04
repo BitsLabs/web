@@ -10,11 +10,31 @@
   "Home": {
     "hero": {
       "title": "Building Software People Love",
-      "subtitle": "Design first, AI native."
+      "subtitle": "Design first · AI native",
+      "line1": "Building Software",
+      "line2": "People Love",
+      "description": "We connect data and design to create tools that matter — at the intersection of technology and ambition."
     },
     "about": {
-      "heading": "About Flits",
-      "description": "At Flits we connect data and design — to create incredible tools. Directly at the intersection of technology and ambition, we build the systems that empower tomorrow."
+      "label": "Who we are",
+      "heading": "We build things that are worth building.",
+      "description": "At Flits we connect data and design — to create incredible tools. Directly at the intersection of technology and ambition, we build the systems that empower tomorrow.",
+      "value1": {
+        "title": "Design first",
+        "description": "Every decision starts with the user experience."
+      },
+      "value2": {
+        "title": "AI native",
+        "description": "Intelligence built in from day one."
+      },
+      "value3": {
+        "title": "Ship fast",
+        "description": "We move quickly without cutting corners."
+      },
+      "value4": {
+        "title": "Built to last",
+        "description": "Quality and craft in everything we make."
+      }
     },
     "stats": {
       "reach": "Market Reach",
@@ -24,9 +44,17 @@
       "support": "Support",
       "supportValue": "24/7"
     },
+    "work": {
+      "label": "What we ship",
+      "viewProduct": "View product"
+    },
     "cta": {
-      "contact": "Contact",
-      "whatWeDo": "What we do"
+      "label": "Let's work together",
+      "heading": "Ready to build something great?",
+      "description": "Tell us what you're working on. We'd love to help.",
+      "contact": "Start a project",
+      "email": "Send us an email",
+      "whatWeDo": "See our work"
     }
   },
   "Contact": {

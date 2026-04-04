@@ -10,11 +10,31 @@
   "Home": {
     "hero": {
       "title": "Creando software que la gente ama",
-      "subtitle": "Design first, AI native."
+      "subtitle": "Design first · AI native",
+      "line1": "Software que la",
+      "line2": "gente ama",
+      "description": "Conectamos datos y diseño para crear herramientas que importan — en la intersección de tecnología y ambición."
     },
     "about": {
-      "heading": "Sobre Flits",
-      "description": "En Flits conectamos datos y diseño — para crear herramientas increíbles. En la intersección de tecnología y ambición, construimos los sistemas que impulsan el mañana."
+      "label": "Quiénes somos",
+      "heading": "Construimos lo que vale la pena construir.",
+      "description": "En Flits conectamos datos y diseño — para crear herramientas increíbles. En la intersección de tecnología y ambición, construimos los sistemas que impulsan el mañana.",
+      "value1": {
+        "title": "Design first",
+        "description": "Cada decisión empieza por la experiencia del usuario."
+      },
+      "value2": {
+        "title": "IA nativa",
+        "description": "Inteligencia integrada desde el primer día."
+      },
+      "value3": {
+        "title": "Entrega rápida",
+        "description": "Avanzamos rápido sin recortar en calidad."
+      },
+      "value4": {
+        "title": "Construido para durar",
+        "description": "Calidad y artesanía en todo lo que hacemos."
+      }
     },
     "stats": {
       "reach": "Alcance de mercado",
@@ -24,9 +44,17 @@
       "support": "Soporte",
       "supportValue": "24/7"
     },
+    "work": {
+      "label": "Lo que creamos",
+      "viewProduct": "Ver producto"
+    },
     "cta": {
-      "contact": "Contacto",
-      "whatWeDo": "Lo que hacemos"
+      "label": "Trabajemos juntos",
+      "heading": "¿Listo para construir algo grande?",
+      "description": "Cuéntanos en qué estás trabajando. Nos encantaría ayudarte.",
+      "contact": "Iniciar proyecto",
+      "email": "Enviar un correo",
+      "whatWeDo": "Nuestro trabajo"
     }
   },
   "Contact": {

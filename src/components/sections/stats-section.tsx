@@ -10,20 +10,20 @@ export async function StatsSection() {
   ];
 
   return (
-    <section className="py-16 sm:py-24">
+    <section className="border-y border-border py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <dl className="grid grid-cols-1 gap-8 sm:grid-cols-3">
+        <dl className="grid grid-cols-1 divide-y divide-border sm:grid-cols-3 sm:divide-x sm:divide-y-0">
           {stats.map((stat) => (
             <div
               key={stat.label}
-              className="flex flex-col items-center rounded-2xl border border-border bg-card px-8 py-10 text-center shadow-sm"
+              className="flex flex-col gap-1 px-0 py-8 sm:px-10 sm:py-0 first:sm:pl-0 last:sm:pr-0"
             >
-              <dt className="order-2 mt-2 text-sm font-medium text-muted-foreground">
-                {stat.label}
-              </dt>
-              <dd className="order-1 text-5xl font-bold tracking-tight text-foreground">
+              <dd className="text-5xl font-bold tracking-tight text-foreground">
                 {stat.value}
               </dd>
+              <dt className="text-sm font-medium text-muted-foreground">
+                {stat.label}
+              </dt>
             </div>
           ))}
         </dl>

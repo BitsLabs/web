@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { Separator } from "@/components/ui/separator";
+import { FlitsLogo } from "@/components/shared/flits-logo";
 
 export async function Footer() {
   const tFooter = await getTranslations("Footer");
@@ -14,28 +15,42 @@ export async function Footer() {
   ];
 
   return (
-    <footer className="border-t border-border bg-muted/30">
-      <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
+    <footer className="border-t border-border">
+      <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
           <div className="col-span-1 lg:col-span-2">
-            <Link
-              href="/"
-              className="text-xl font-bold tracking-tight text-foreground"
-            >
-              Flits
+            <Link href="/" aria-label="Flits">
+              <FlitsLogo />
             </Link>
-            <p className="mt-3 max-w-xs text-sm text-muted-foreground">
-              Building Software People Love. Design first, AI native.
+            <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">
+              Building Software People Love.
+              <br />
+              Design first, AI native.
             </p>
+            <div className="mt-6 flex gap-4 text-sm text-muted-foreground">
+              <a
+                href="mailto:contact@flits.cc"
+                className="transition-colors hover:text-foreground"
+              >
+                contact@flits.cc
+              </a>
+              <span>·</span>
+              <a
+                href="tel:+4915153616465"
+                className="transition-colors hover:text-foreground"
+              >
+                +49 1515 3616465
+              </a>
+            </div>
           </div>
 
           {/* Pages */}
           <div>
-            <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-muted-foreground">
+            <p className="mb-4 text-xs font-semibold uppercase tracking-widest text-muted-foreground">
               {tFooter("pages")}
             </p>
-            <ul className="space-y-2">
+            <ul className="space-y-3">
               {pageLinks.map((link) => (
                 <li key={link.href}>
                   <Link
@@ -49,55 +64,30 @@ export async function Footer() {
             </ul>
           </div>
 
-          {/* Contact */}
-          <div>
-            <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-              Contact
-            </p>
-            <ul className="space-y-2 text-sm text-muted-foreground">
-              <li>
-                <a
-                  href="mailto:contact@flits.cc"
-                  className="transition-colors hover:text-foreground"
-                >
-                  contact@flits.cc
-                </a>
-              </li>
-              <li>
-                <a
-                  href="tel:+4915153616465"
-                  className="transition-colors hover:text-foreground"
-                >
-                  +49 1515 3616465
-                </a>
-              </li>
-            </ul>
+          {/* Legal entities */}
+          <div className="space-y-5">
+            <div>
+              <p className="text-sm font-medium text-foreground">
+                Trout UG (haftungsbeschränkt)
+              </p>
+              <p className="mt-1 text-sm text-muted-foreground">
+                Forellenweg 8a
+                <br />
+                94428 Eichendorf, Germany
+              </p>
+            </div>
+            <div>
+              <p className="text-sm font-medium text-foreground">Flits Ltd</p>
+              <p className="mt-1 text-sm text-muted-foreground">
+                71-75 Shelton St
+                <br />
+                London, WC2H 9JQ, UK
+              </p>
+            </div>
           </div>
         </div>
 
-        <Separator className="my-8" />
-
-        {/* Legal entities */}
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          <div className="lg:col-span-2">
-            <p className="text-xs font-medium text-muted-foreground">
-              Trout UG (haftungsbeschränkt)
-            </p>
-            <p className="mt-1 text-xs text-muted-foreground/70">
-              Forellenweg 8a, 94428 Eichendorf, Germany
-            </p>
-          </div>
-          <div className="lg:col-span-2">
-            <p className="text-xs font-medium text-muted-foreground">
-              Flits Ltd
-            </p>
-            <p className="mt-1 text-xs text-muted-foreground/70">
-              71-75 Shelton St, London, WC2H 9JQ, United Kingdom
-            </p>
-          </div>
-        </div>
-
-        <Separator className="my-6" />
+        <Separator className="my-10" />
 
         <p className="text-xs text-muted-foreground/60">
           © {new Date().getFullYear()} Flits. All rights reserved.

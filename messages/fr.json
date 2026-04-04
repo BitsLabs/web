@@ -10,11 +10,31 @@
   "Home": {
     "hero": {
       "title": "Créer des logiciels que les gens adorent",
-      "subtitle": "Design first, AI native."
+      "subtitle": "Design first · AI native",
+      "line1": "Des logiciels que",
+      "line2": "les gens adorent",
+      "description": "Nous connectons données et design pour créer des outils qui comptent — à l'intersection de la technologie et de l'ambition."
     },
     "about": {
-      "heading": "À propos de Flits",
-      "description": "Chez Flits, nous connectons données et design — pour créer des outils incroyables. À l'intersection de la technologie et de l'ambition, nous construisons les systèmes qui propulsent demain."
+      "label": "Qui nous sommes",
+      "heading": "Nous construisons ce qui mérite d'être construit.",
+      "description": "Chez Flits, nous connectons données et design — pour créer des outils incroyables. À l'intersection de la technologie et de l'ambition, nous construisons les systèmes qui propulsent demain.",
+      "value1": {
+        "title": "Design first",
+        "description": "Chaque décision part de l'expérience utilisateur."
+      },
+      "value2": {
+        "title": "IA native",
+        "description": "L'intelligence intégrée dès le premier jour."
+      },
+      "value3": {
+        "title": "Livrer vite",
+        "description": "Nous avançons rapidement sans rogner sur la qualité."
+      },
+      "value4": {
+        "title": "Fait pour durer",
+        "description": "Qualité et soin dans tout ce que nous créons."
+      }
     },
     "stats": {
       "reach": "Portée du marché",
@@ -24,9 +44,17 @@
       "support": "Support",
       "supportValue": "24/7"
     },
+    "work": {
+      "label": "Ce que nous créons",
+      "viewProduct": "Voir le produit"
+    },
     "cta": {
-      "contact": "Contact",
-      "whatWeDo": "Ce que nous faisons"
+      "label": "Travaillons ensemble",
+      "heading": "Prêt à construire quelque chose de grand ?",
+      "description": "Dites-nous sur quoi vous travaillez. Nous serions ravis d'aider.",
+      "contact": "Démarrer un projet",
+      "email": "Envoyer un e-mail",
+      "whatWeDo": "Notre travail"
     }
   },
   "Contact": {

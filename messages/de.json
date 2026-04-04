@@ -10,11 +10,31 @@
   "Home": {
     "hero": {
       "title": "Software, die begeistert",
-      "subtitle": "Design first, AI native."
+      "subtitle": "Design first · AI native",
+      "line1": "Software, die",
+      "line2": "begeistert",
+      "description": "Wir verbinden Daten und Design, um Tools zu entwickeln, die wirklich zählen — an der Schnittstelle von Technologie und Ambition."
     },
     "about": {
-      "heading": "Über Flits",
-      "description": "Bei Flits verbinden wir Daten und Design — um außergewöhnliche Tools zu schaffen. An der Schnittstelle von Technologie und Ambition bauen wir die Systeme, die morgen antreiben."
+      "label": "Wer wir sind",
+      "heading": "Wir bauen Dinge, die es wert sind, gebaut zu werden.",
+      "description": "Bei Flits verbinden wir Daten und Design — um außergewöhnliche Tools zu schaffen. An der Schnittstelle von Technologie und Ambition bauen wir die Systeme, die morgen antreiben.",
+      "value1": {
+        "title": "Design first",
+        "description": "Jede Entscheidung beginnt mit der Nutzererfahrung."
+      },
+      "value2": {
+        "title": "KI-nativ",
+        "description": "Intelligenz von Anfang an integriert."
+      },
+      "value3": {
+        "title": "Schnell liefern",
+        "description": "Wir bewegen uns zügig, ohne Abstriche zu machen."
+      },
+      "value4": {
+        "title": "Gebaut, um zu bleiben",
+        "description": "Qualität und Handwerk in allem, was wir bauen."
+      }
     },
     "stats": {
       "reach": "Marktreichweite",
@@ -24,9 +44,17 @@
       "support": "Support",
       "supportValue": "24/7"
     },
+    "work": {
+      "label": "Was wir bauen",
+      "viewProduct": "Produkt ansehen"
+    },
     "cta": {
-      "contact": "Kontakt",
-      "whatWeDo": "Was wir machen"
+      "label": "Lass uns zusammenarbeiten",
+      "heading": "Bereit, etwas Großartiges zu bauen?",
+      "description": "Erzähl uns, woran du arbeitest. Wir helfen dir gerne weiter.",
+      "contact": "Projekt starten",
+      "email": "E-Mail senden",
+      "whatWeDo": "Unsere Arbeit"
     }
   },
   "Contact": {
