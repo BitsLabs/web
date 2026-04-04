@@ -1,28 +1,41 @@
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 
 interface FlitsLogoProps {
   className?: string;
+  /** Render only the bolt icon, no wordmark */
   iconOnly?: boolean;
+  height?: number;
 }
 
-export function FlitsLogo({ className, iconOnly = false }: FlitsLogoProps) {
+export function FlitsLogo({ className, iconOnly = false, height = 28 }: FlitsLogoProps) {
+  const src = iconOnly
+    ? { light: "/images/bolt-black.png", dark: "/images/bolt-white.png" }
+    : { light: "/images/logo-black.png", dark: "/images/logo-white.png" };
+
+  // Maintain the original aspect ratios: full logo ≈ 490×100, bolt ≈ square-ish
+  const width = iconOnly ? height : Math.round(height * 4.9);
+
   return (
-    <div className={cn("flex items-center gap-2.5", className)}>
-      {/* Mark: two parallel angled slabs — speed / flash motif */}
-      <svg
-        width="14"
-        height="18"
-        viewBox="0 0 14 18"
-        fill="currentColor"
-        aria-hidden="true"
-        className="shrink-0"
-      >
-        <path d="M0 0H2.8L7.2 18H4.4L0 0Z" />
-        <path d="M6.2 0H9L13.4 18H10.6L6.2 0Z" />
-      </svg>
-      {!iconOnly && (
-        <span className="text-xl font-bold tracking-tight">flits</span>
-      )}
+    <div className={cn("relative inline-flex shrink-0", className)}>
+      {/* Light mode logo */}
+      <Image
+        src={src.light}
+        alt="Flits"
+        width={width}
+        height={height}
+        className="block dark:hidden"
+        priority
+      />
+      {/* Dark mode logo */}
+      <Image
+        src={src.dark}
+        alt="Flits"
+        width={width}
+        height={height}
+        className="hidden dark:block"
+        priority
+      />
     </div>
   );
 }
