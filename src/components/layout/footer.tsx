@@ -2,6 +2,8 @@ import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { Separator } from "@/components/ui/separator";
 import { FlitsLogo } from "@/components/shared/flits-logo";
+import { TimezoneStrip } from "@/components/terminal/timezone-strip";
+import { StatusLine } from "@/components/terminal/status-line";
 
 export async function Footer() {
   const tFooter = await getTranslations("Footer");
@@ -89,7 +91,13 @@ export async function Footer() {
 
         <Separator className="my-10" />
 
-        <p className="text-xs text-muted-foreground/60">
+        {/* Quiet terminal strip: live clocks + current focus. */}
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+          <TimezoneStrip />
+          <StatusLine value="BUILDING FLITS" />
+        </div>
+
+        <p className="mt-6 text-xs text-muted-foreground/60">
           © {new Date().getFullYear()} Flits. All rights reserved.
         </p>
       </div>
