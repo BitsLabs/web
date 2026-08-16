@@ -1,6 +1,7 @@
 "use client";
 
 import { useLocale, useTranslations } from "next-intl";
+import { useParams } from "next/navigation";
 import { useRouter, usePathname } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 import {
@@ -29,10 +30,18 @@ export function LanguageSwitcher() {
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
+  const params = useParams();
   const t = useTranslations("Common");
 
   function handleLocaleChange(nextLocale: string) {
-    router.replace(pathname, { locale: nextLocale });
+    // Route params must be forwarded so dynamic pathnames (e.g. an insights
+    // article) keep their segment when switching locale. TypeScript cannot
+    // verify that `params` matches `pathname`, so the cast is expected here.
+    router.replace(
+      // @ts-expect-error -- params are validated at runtime, not statically
+      { pathname, params },
+      { locale: nextLocale },
+    );
   }
 
   return (

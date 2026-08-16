@@ -62,6 +62,15 @@
     "email": "E-Mail",
     "phone": "Téléphone"
   },
+  "Insights": {
+    "title": "Insights",
+    "label": "Insights",
+    "heading": "Notes sur la création de logiciels, et des entreprises qui les portent.",
+    "description": "Articles occasionnels de l'équipe Flits sur le produit, l'ingénierie et la forme des entreprises nativement IA.",
+    "readingTime": "{minutes} min de lecture",
+    "back": "← Tous les articles",
+    "englishOnly": "Cet article n'est actuellement disponible qu'en anglais."
+  },
   "Footer": {
     "pages": "Pages",
     "home": "Accueil",

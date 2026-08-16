@@ -62,6 +62,15 @@
     "email": "E-Mail",
     "phone": "Telefon"
   },
+  "Insights": {
+    "title": "Insights",
+    "label": "Insights",
+    "heading": "Notizen über Softwareentwicklung – und die Unternehmen darum herum.",
+    "description": "Gelegentliche Beiträge des Flits-Teams zu Produkt, Technik und der Gestalt KI-nativer Unternehmen.",
+    "readingTime": "{minutes} Min. Lesezeit",
+    "back": "← Alle Insights",
+    "englishOnly": "Dieser Beitrag ist derzeit nur auf Englisch verfügbar."
+  },
   "Footer": {
     "pages": "Seiten",
     "home": "Startseite",
